@@ -17,25 +17,35 @@ HTML5, CSS3 and vanilla JavaScript.
 ## Run locally
 Open `index.html` in a browser. No build step or package installation is required.
 
-## Deploy with Vercel
-This is a static website; no framework preset, build command or output directory is needed.
+## Hosting and deployment
 
-1. Sign in to [Vercel](https://vercel.com/) using the GitHub account that owns this repository.
-2. Select **Add New → Project**.
-3. Import `ntombizodwantlahla/ntombizodwa-business-website`.
-4. In project configuration, leave **Framework Preset** as **Other**.
-5. Leave **Build Command** and **Output Directory** empty (or use the defaults Vercel detects). The site entry point is `index.html` in the repository root.
-6. Select **Deploy**.
-7. When deployment finishes, open the generated `.vercel.app` URL and test the site on desktop and mobile.
-8. Future commits pushed to the `main` branch will trigger a new deployment automatically.
+### GitHub Pages (hosting service used for this website)
+This website is currently hosted with **GitHub Pages**.
+
+To enable or publish it from this repository:
+1. Open the repository on GitHub.
+2. Go to **Settings → Pages**.
+3. Under **Build and deployment**, choose **Deploy from a branch**.
+4. Select the `main` branch and the `/(root)` folder, then save.
+5. Wait for GitHub Pages to publish the site. The project website is available at:
+   https://ntombizodwantlahla.github.io/ntombizodwa-business-website/
+
+Commits pushed to the configured branch will update the published website after GitHub Pages completes its deployment.
+
+### Vercel (alternative hosting option)
+Vercel can also be used to host this static website. It is an alternative deployment platform; **GitHub Pages is the platform used for the current published website**.
+
+To deploy with Vercel:
+1. Sign in to [Vercel](https://vercel.com/) using a GitHub account.
+2. Select **Add New → Project** and import this repository.
+3. Keep the framework preset as **Other**.
+4. No build command or output directory is required for this plain static site; `index.html` is in the repository root.
+5. Select **Deploy** and use the generated Vercel URL once deployment is complete.
 
 ## Before sharing your website
-- Add your LinkedIn profile URL once you have it.
-- Confirm your preferred working days, hours and earliest start date.
-- Decide whether you want to publish a specific entry-level hourly or project rate, or keep rates negotiable.
 - Check that your phone number and email links work.
 - Open both project links and confirm they are still live.
-- Review all personal details and certification names for accuracy.
+- Review personal details and certification names for accuracy.
 
 ## Contact
 Email: ntombizodwantlahla53@gmail.com
